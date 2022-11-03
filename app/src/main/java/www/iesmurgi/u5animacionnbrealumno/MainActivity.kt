@@ -29,5 +29,8 @@ class MainActivity : AppCompatActivity() {
         val mianimacion = AnimationUtils.loadAnimation(this, R.anim.animacion_translacion);
         miTexto.startAnimation(mianimacion);
 
+        miTexto.typeface = ResourcesCompat.getFont(this, R.font.deadkansas);
+        miTexto.startAnimation(mianimacion);
+
     }
 }
